@@ -1,0 +1,5 @@
+- name: Ensure timezone set to Asia/Tehran
+  lineinfile:
+    dest: /etc/timezone
+    line: 'Asia/Tehran'
+    create: yes
